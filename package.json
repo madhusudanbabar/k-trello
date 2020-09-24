@@ -1,0 +1,30 @@
+{
+  "name": "k-trello",
+  "version": "1.0.0",
+  "description": "A powerful bot to manage the Trello with slack",
+  "main": "index.ts",
+  "scripts": {
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madhusudanbabar/k-trello.git"
+  },
+  "keywords": [
+    "trello",
+    "slack",
+    "bot",
+    "api"
+  ],
+  "author": "krypton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/madhusudanbabar/k-trello/issues"
+  },
+  "homepage": "https://github.com/madhusudanbabar/k-trello#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "slackbots": "^1.2.0"
+  }
+}
